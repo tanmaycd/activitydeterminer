@@ -1,0 +1,29 @@
+/* src/components/ActivityList.css */
+
+.activity-list {
+    text-align: center;
+  }
+  
+  .activity-item {
+    list-style: none;
+    background: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .activity-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .activities-finder {
+    padding: 20px;
+  }
+  
+  .activities-finder h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
